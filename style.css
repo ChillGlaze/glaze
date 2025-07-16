@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+#video-intro {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("assets/glaze-splash.jpg") center center no-repeat;
+  background-size: cover;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#intro-video {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+.hero-img {
+  max-width: 100%;
+  border: 4px solid gold;
+  border-radius: 12px;
+  box-shadow: 0 0 30px red;
+  margin-top: 30px;
+}
+
+.top20 {
+  padding: 2rem;
+  text-align: center;
+}
+
+.streamer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 2rem;
+}
