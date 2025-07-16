@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GLAZE – Live Streamer Hub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="video-intro">
+    <video autoplay muted playsinline id="intro-video">
+      <source src="assets/intro.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <main id="main-site" style="display:none;">
+    <section class="hero-glaze">
+      <img src="assets/glaze-splash.jpg" alt="GLAZE Hero" class="hero-img" />
+    </section>
+
+    <section class="top20">
+      <h1>💎 Top 20 Most Glazed Streamers</h1>
+      <div class="streamer-grid">
+        <!-- Streamer cards will go here -->
+        <p>[Streamers will appear here once API is integrated]</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
